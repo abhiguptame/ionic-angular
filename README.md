@@ -5,6 +5,7 @@
 
 ### Create an App
 > Create an Ionic Angular app that uses the “sidemenu” starter template and adds Capacitor for native functionality:
+
 ```$ ionic start my-app sidemenu --type=angular --capacitor```  
 
 ### Change into App Folder
@@ -12,6 +13,7 @@
 
 ### Install PWA elements
 > Capacitor plugins, including the Camera API, provide the web-based functionality and UI via the Ionic PWA Elements library.
+
 ```$ npm install @ionic/pwa-elements```
 
 ### Build Project
@@ -31,10 +33,12 @@
 
 ### Copy Changes
 > Every time we perform a build (e.g. ionic build) that updates your web directory (default: www), we will need to copy those changes into our native projects:
+
 ```$ ionic cap copy```
 
 ### Sync Changes
 > After making updates to the native portion of the code (such as adding a new plugin), use the sync command:
+
 ```$ ionic cap sync```
 
 ### Open the native Android project in Android Studio:
